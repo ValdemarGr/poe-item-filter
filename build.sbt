@@ -9,6 +9,15 @@ scalaVersion := "2.12.8"
 
 libraryDependencies += guice
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "3.1.2" % Test
+// https://mvnrepository.com/artifact/io.circe/circe-core
+libraryDependencies += "io.circe" %% "circe-core" % "0.11.1"
+// https://mvnrepository.com/artifact/io.circe/circe-parser
+libraryDependencies += "io.circe" %% "circe-parser" % "0.11.1"
+// https://mvnrepository.com/artifact/io.circe/circe-generic
+libraryDependencies += "io.circe" %% "circe-generic" % "0.11.1"
+
+
+
 
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "valde.controllers._"

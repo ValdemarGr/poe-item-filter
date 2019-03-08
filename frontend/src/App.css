@@ -18,6 +18,14 @@
   color: white;
 }
 
+
+.myCenter {
+  font-size: calc(7px + 1vmin);
+  padding-top: 13%;
+  margin-left: 30%;
+  margin-right: auto;
+}
+
 .App-link {
   color: #61dafb;
 }
